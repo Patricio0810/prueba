@@ -1,0 +1,21 @@
+.resultados{
+    display: flex;
+    margin-top: 80px;
+    flex-flow: column;
+    align-items: center;
+    .header{
+        display: flex;
+        width: 600px;
+        .titulo{
+            margin-left: 200px;
+        }
+    }
+    .grafico{
+        width: 600px;
+        margin-top: 40px;
+    }
+}
+
+img{
+    width: 40px;
+}

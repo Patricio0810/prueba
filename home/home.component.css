@@ -1,0 +1,27 @@
+h1{  
+    color: white;
+}
+
+.body{
+    margin-top: 100px;
+    .titulo{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .opciones{
+        display: flex;
+        flex-flow: column;
+        align-content: space-between;
+        align-items: center;
+        justify-content: space-between;
+        height: 140px;
+        .boton{
+            height: 65px;
+            width: 300px;
+        }
+    }
+}
+
+button{
+    border-radius: 50px;
+}
